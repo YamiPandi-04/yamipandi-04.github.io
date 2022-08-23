@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+    background-image: url();
+    font-family: 'Kanit';
+    position: relative;
+    padding-bottom: 7em;
+}
+
+header{
+	background-color: #f2f2f2;
+	text-align: center;
+	padding: 25px;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: #740303;
+	margin: 0 30px;
+	padding: 5px 15px;
+	border-radius: 30px;
+}
+nav a:hover {
+	background-color: rgb(117, 3, 3);
+	color: #fff;   
+}    
+.encabezado-img{
+	background-image: url(fondo2.jpg);
+	background-size: cover;
+	height: 450px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+}
+.encabezado-img p{
+	font-size: 18px;
+}
+.encabezado-img h1{
+	font-size: 50px;
+	padding: 15px 0;
+
+}
+.encabezado-img h3{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'kanit';
+
+}
+
+.nosotros {
+    width: 70%;
+    background: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 4%;
+    color: #740303;
+    font-family: Kanit;
+    border-radius: 15px;
+    /* box-shadow: 7px 13px 37px black; */
+  }
+  
+  .nosotros-img {
+    border-radius: 50%;
+  }
+  
+  .nosotros h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+  }
+  
+  .box h2 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 30px
+  }
+  
+  .box p {
+    text-align: justify;
+  }
+.footer {
+    padding: 20px 0;
+    background-color: #740303;
+    text-emphasis: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer .redes {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #f2f2f2;
+}
+
+.footer .redes a {
+    border: 1px #f2f2f2;
+    font-size: 24px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    line-height: 38px;
+    border-radius: 50px;
+    margin: 0 8px;
+    text-align: center;
+}
+
+.footer .redes a:hover {
+    background-color: rgb(117, 3, 3);
+	color: #fff;
+}
